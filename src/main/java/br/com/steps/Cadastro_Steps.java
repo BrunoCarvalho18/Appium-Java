@@ -1,4 +1,4 @@
-package steps;
+package br.com.steps;
 
 import static org.junit.Assert.assertTrue;
 import java.net.MalformedURLException;
@@ -15,12 +15,12 @@ import org.openqa.selenium.support.ThreadGuard;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import br.com.screens.Cadastro_Screen;
 import io.appium.java_client.*;
 import io.appium.java_client.MobileBy.ByAccessibilityId;
 import io.appium.java_client.MobileBy.ByAndroidUIAutomator;
 import io.appium.java_client.android.AndroidElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
-import screens.Cadastro_Screen;
 
 import org.junit.runner.RunWith;
 

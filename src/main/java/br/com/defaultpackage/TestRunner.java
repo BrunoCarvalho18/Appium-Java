@@ -1,4 +1,4 @@
-package defaultpackage;
+package br.com.defaultpackage;
 
 import org.junit.runner.RunWith;
 

@@ -1,4 +1,4 @@
-package screens;
+package br.com.screens;
 
 import java.net.MalformedURLException;
 import io.appium.java_client.*;
@@ -12,9 +12,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-
+import br.com.devcapp.App;
 import cucumber.api.junit.Cucumber;
-import devcapp.App;
 
 public class Cadastro_Screen {
 
